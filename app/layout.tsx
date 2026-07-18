@@ -53,7 +53,7 @@ export default async function RootLayout({
 
             <Footer />
 
-            <Toaster />
+            <Toaster richColors/>
           </ThemeProvider>
         </body>
       </html>

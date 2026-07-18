@@ -13,7 +13,7 @@ import { PlusIcon, Map } from "lucide-react";
 import Link from "next/link";
 import { getCategoryDesign } from "@/app/data/categoryData";
 import { Badge } from "@/components/ui/badge";
-// import FeedbackList from "@/components/feedback-list";
+import Feedbacklist from "@/components/feedbacklist";
 
 export default async function FeedbackPage() {
   // Get the useId from clerk auth
@@ -107,7 +107,7 @@ export default async function FeedbackPage() {
           </div>
           {/* Main Content */}
           <div className="lg:col-span-3">
-            {/* <FeedbackList initialPosts={posts} userId={userId} /> */}
+            <Feedbacklist initialPosts={posts} userId={userId} />
           </div>
         </div>
       </div>
