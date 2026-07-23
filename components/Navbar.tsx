@@ -37,6 +37,16 @@ const Navbar = () => {
             <MessageSquare className="h-4 w-4" />
             FeedBack
           </Link>
+
+          {/* Admin Link */}
+          <Link
+            href="/admin"
+            className="text-sm hover:text-primary flex items-center gap-1"
+          >
+            <MessageSquare className="h-4 w-4" />
+            Admin
+          </Link>
+          
         </div>
         <div className="flex items-center gap-4 cursor-pointer">
           <ThemeToggle />
